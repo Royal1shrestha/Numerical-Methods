@@ -1,3 +1,5 @@
+// Secant method
+
 #include<stdio.h>
 #include<math.h>
 float f(float x)
@@ -12,7 +14,7 @@ float main()
     scanf("%f%f",&a,&b);
     printf("Enter the values of allowed error :\n");
     scanf("%f",&e);
-    if(f(a)==f(b))
+    if (fabs(f(a)-f(b)) > 0.0005)
     {
         printf("\nSolution cannot be found as the values of a and b are same.\n");
     }

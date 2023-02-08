@@ -1,3 +1,5 @@
+// Solution of linear solution by Gauss Jordan method
+
 #include<stdio.h>
 #include<math.h>
 #include<conio.h>
